@@ -44,7 +44,7 @@ end
 
 # file  = File.open("NBA4.txt") or die "Unable to open file..."
 
-lines= IO.readlines("NBA4.txt")
+lines= IO.readlines("NBA_999.txt")
 
 # lines = file.each_line {|line|}
 
@@ -52,7 +52,7 @@ lines= IO.readlines("NBA4.txt")
 
 lines.each  do |line|
     isBirthTHeSame(line)
-    sleep(10)
+    sleep(5)
 end
 
 
